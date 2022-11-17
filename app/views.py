@@ -7,5 +7,5 @@ def index(request):
 def vehiculos(request):
     return render(request, 'Vehiculos.html')
 
-def about(request):
-    return render(request, 'QuienesSomos.html')
+def nosotros(request):
+    return render(request, 'Nosotros.html')
